@@ -1,0 +1,28 @@
+model,sex,parameter,term,coefficient
+grip,男,mu,(Intercept),-5.358461678
+grip,男,mu,"pb(age, df = 3, inter = 5)",-0.010061177
+grip,男,mu,log(height),1.88221006643028
+grip,男,sigma,(Intercept),-0.467038521
+grip,男,sigma,age,0.0097792493358473
+grip,男,sigma,height,-0.011280183
+grip,男,nu,(Intercept),1.07215547193643
+grip,男,tau,(Intercept),0.566871636734606
+grip,女,mu,(Intercept),1.730493963
+grip,女,mu,age,-0.008293302
+grip,女,mu,height,0.0129908331645258
+grip,女,mu,I((age - 65) * (height - 160)),0.000164496014432962
+grip,女,sigma,(Intercept),-0.293820613
+grip,女,sigma,age,0.00939646277059605
+grip,女,sigma,height,-0.011561932
+grip,女,nu,(Intercept),1.1420397232327
+grip,女,tau,(Intercept),0.544016849351486
+height,男,mu,(Intercept),174.907904918197
+height,男,mu,age,-0.169751071
+height,男,sigma,(Intercept),1.6023986820495
+height,男,sigma,age,0.00417073576144634
+height,女,mu,(Intercept),166.057437902499
+height,女,mu,"pb(age, df = 2, inter = 5)",-0.21264341
+height,女,sigma,(Intercept),-3.627183148
+height,女,sigma,age,0.00583265063382516
+height,女,nu,(Intercept),1.67733373579206
+height,女,tau,(Intercept),0.584239637489232
